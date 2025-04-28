@@ -78,7 +78,7 @@ const Showcase = () => {
                 <h2>Library Management Platform</h2>
               </div>
               <div className="project" ref={project3Ref}>
-                <div className="image-wrapper bg-[#ffe7eb]">
+                <div className="image-wrapper bg-[#f8c2cb]">
                   <img src="/images/project3.png" alt="YC Directory" />
                 </div>
                 <h2>YC Directory - A Startup Showcase App</h2>
