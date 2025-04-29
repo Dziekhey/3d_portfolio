@@ -3,6 +3,7 @@ import Hero from "./sections/Hero";
 import Showcase from "./sections/Showcase";
 import Navbar from "./components/Navbar";
 import LogoSection from "./sections/LogoSection";
+import Feature from "./sections/Feature";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Hero />
       <Showcase />
       <LogoSection />
+      <Feature />
     </>
   );
 };
