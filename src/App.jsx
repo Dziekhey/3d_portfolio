@@ -7,6 +7,8 @@ import Feature from "./sections/Feature";
 import Experience from "./sections/Experience";
 import TechStack from "./sections/TechStack";
 import Testimonials from "./sections/Testimonials";
+import Contact from "./sections/Contact";
+import { Toaster } from "react-hot-toast";
 
 const App = () => {
   return (
@@ -19,6 +21,8 @@ const App = () => {
       <Experience />
       <TechStack />
       <Testimonials />
+      <Contact />
+      <Toaster position="bottom-left" reverseOrder={false} />
     </>
   );
 };
