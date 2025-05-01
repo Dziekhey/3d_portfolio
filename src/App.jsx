@@ -9,6 +9,7 @@ import TechStack from "./sections/TechStack";
 import Testimonials from "./sections/Testimonials";
 import Contact from "./sections/Contact";
 import { Toaster } from "react-hot-toast";
+import Footer from "./sections/Footer";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <TechStack />
       <Testimonials />
       <Contact />
+      <Footer />
       <Toaster position="bottom-left" reverseOrder={false} />
     </>
   );
